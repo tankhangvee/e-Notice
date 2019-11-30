@@ -23,7 +23,7 @@ import okhttp3.Callback;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-//http://www.objgen.com/json/models/7xOxr
+
 public class MainActivity extends AppCompatActivity {
 
     private ListView listView;
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void getDataFromAPI(){
-        Request request = new Request.Builder().url("https://api.myjson.com/bins/11792e").build();
+        Request request = new Request.Builder().url("https://api.myjson.com/bins/e6xe2").build();
 
         okHttpClient.newCall(request).enqueue(new Callback() {
             @Override
